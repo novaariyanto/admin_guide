@@ -95,7 +95,7 @@
 
                                         <div class="form-group">
                                             <label for="input-1">Movie Video thumbnail</label>
-                                            <input type="text" class="form-control" name="tvshow_thumbnail" id="input_thumb" value="<?PHP echo $vid->tvv_thumbnail; ?> placeholder="select tvshow image">
+                                            <input type="text" class="form-control" name="tvshow_thumbnail" id="input_thumb" value="<?PHP echo $vid->tvv_thumbnail; ?>" placeholder="select tvshow image">
                                             <input type="hidden" name="video_thumbnailimage" value="<?PHP echo $vid->tvv_thumbnail; ?>">
                                             <div><img src="<?php echo $vid->tvv_thumbnail; ?>" height="100px;" width="100px;"></div>
                                         </div>
